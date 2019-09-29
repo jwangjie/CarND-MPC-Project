@@ -23,7 +23,7 @@ We only execute the very first set of control inputs ([δ_1,a_1], steering angle
 ### Simulation result
 Click the gif to view the whole video: 
 
-[![demo_gif](https://github.com/jwangjie/SDC-MPC-Project/blob/master/Figures/MPC.gif)](https://youtu.be/27frle_pqPE)
+[![demo_gif](https://github.com/jwangjie/jwangjie.github.io/blob/master/files/MPC.gif)](https://youtu.be/27frle_pqPE)
 
 ### Process model
 The process model used in MPC pipeline is a kinematic model is different with the [Berkeley paper](http://www.me.berkeley.edu/~frborrel/pdfpub/IV_KinematicMPC_jason.pdf), although they are similar. In fact, it is possible to use different models in different parts of your pipeline, depending on what levels of accuracy you need in different places. The principles of the model we present can be applied to add parameters into the model to make models fit purpose. 
